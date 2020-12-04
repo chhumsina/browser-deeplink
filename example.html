@@ -4,7 +4,9 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <script src="browser-deeplink.js" type="text/javascript"></script>
     <script type="text/javascript">
-
+window.onload = function() {
+    deeplink.open("myapp://object/xyz");
+}
     deeplink.setup({
         iOS: {
             appId: "284882215",
