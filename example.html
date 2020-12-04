@@ -8,10 +8,10 @@
     deeplink.setup({
         iOS: {
             appId: "284882215",
-            appName: "facebook",
+            appName: "abamobilebank",
         },
         android: {
-            appId: "com.facebook.katana"
+            appId: "abamobilebank"
         }
     });
 
@@ -21,7 +21,7 @@
     }
         
         setTimeout(function(){ 
-        clickHandler('fb://profile')
+        clickHandler('abamobilebank://ababank.com?type=payway')
 }, 100); 
         
 
@@ -44,6 +44,6 @@
     </style>
 </head>
 <body>
-    <a href="#" data-uri="fb://profile" onclick="clickHandler(this.dataset.uri)">open fb://profile</a>
+    <a href="#" data-uri="abamobilebank://ababank.com?type=payway" onclick="clickHandler(this.dataset.uri)">open fb://profile</a>
 </body>
 </html>
