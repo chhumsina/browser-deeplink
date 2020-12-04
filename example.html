@@ -19,10 +19,7 @@
         deeplink.open(uri);
         return false;
     }
-        
-        setTimeout(function(){ 
-        clickHandler('abamobilebank://ababank.com?type=payway&qrcode=232132132132132')
-}, 100); 
+         
         
 
     </script>
@@ -44,6 +41,6 @@
     </style>
 </head>
 <body>
-    <a href="#" data-uri="abamobilebank://ababank.com?type=payway" onclick="clickHandler(this.dataset.uri)">open fb://profile</a>
+    <a href="#" data-uri="abamobilebank://ababank.com?type=payway&qrcode=232132132132132" onclick="clickHandler(this.dataset.uri)">open fb://profile</a>
 </body>
 </html>
