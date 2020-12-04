@@ -7,20 +7,6 @@
 window.onload = function() {
     deeplink.open("myapp://object/xyz");
 }
-    deeplink.setup({
-        iOS: {
-            appId: "284882215",
-            appName: "facebook",
-        },
-        android: {
-            appId: "com.facebook.katana"
-        }
-    });
-
-    function clickHandler(uri) {
-        deeplink.open(uri);
-        return false;
-    }
 
     </script>
     <style>
